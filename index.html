@@ -23,10 +23,11 @@
   <body>
     <div class="container">
       <div class="recipe--card">
-        <div class="recipe--image">
+        <div class="recipe--images">
           <img
             src="./assets/images/image-omelette.jpeg"
             alt="omelette"
+            class="recipe--image"
           />
         </div>
         <div class="recipe--info">
@@ -38,8 +39,8 @@
           </p>
         </div>
         <div class="recipe--preparation--time">
-          <h4>Preparation time</h4>
-          <ul>
+          <h3>Preparation time</h3>
+          <ul class="Preparation--time--list">
             <li><span class="bold">Total</span>: Approximately 10 minutes</li>
             <li><span class="bold">Preparation</span>: 5 minutes</li>
             <li><span class="bold">Cooking</span>: 5 minutes</li>
@@ -47,7 +48,7 @@
         </div>
         <div class="recipe--ingredients">
           <h2>Ingredients</h2>
-          <ul>
+          <ul class="recipe--ingredients--list">
             <li>2-3 large eggs</li>
             <li>Salt, to taste</li>
             <li>Pepper, to taste</li>
@@ -57,9 +58,10 @@
             </li>
           </ul>
         </div>
+        <hr />
         <div class="recipe--instructions">
           <h2>Instructions</h2>
-          <ol>
+          <ol class="recipe--instructions--list">
             <li>
               <span class="bold">Beat the eggs</span>
               : In a bowl, beat the eggs with a pinch of salt and pepper until
@@ -94,6 +96,7 @@
             </li>
           </ol>
         </div>
+        <hr />
         <div class="recipe--nutrition">
           <h2>Nutrition</h2>
           <p>
@@ -114,8 +117,8 @@
               <td><span class="brown">20g</span></td>
             </tr>
             <tr>
-              <td>Fat</td>
-              <td><span class="brown">22g</span></td>
+              <td class="off">Fat</td>
+              <td class="off"><span class="brown">22g</span></td>
             </tr>
           </table>
         </div>
